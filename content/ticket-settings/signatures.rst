@@ -3,7 +3,7 @@ Signatures
 
 Corporate identity and team information are essential in each communication. The name of the employee writing and other vital details like disclaimers are some examples of necessary information to include in the communication with the customer.
 
-OTRS provides you with the same tools here, as with :doc:`salutations`, to create a standardized communication form for any one of your queues. As defined in the :ref:`queue settings`: :doc:`salutations`, :doc:`templates`, and :doc:`signatures` are combined to ensure a well formed standardized email communication.
+OTRS provides you with the same tools here, as with :doc:`salutations`, to create a standardized communication form for any one of your queues. As defined in the :ref:`Queue Settings`: :doc:`salutations`, :doc:`templates`, and :doc:`signatures` are combined to ensure a well formed standardized email communication.
 
 Signatures can be linked to one or more :doc:`queues`. A signature is used only in email answers to tickets.
 
@@ -74,7 +74,7 @@ Comment
 Signature Variables
 -------------------
 
-Using variables in signatures is possible. Variables, known as OTRS tags, are replaced by OTRS when generating the mail. Find a list of available tags stems for signatures at the bottom of both add and edit screens.
+Using variables in the text makes it possible to personalize messages. Variables, known as OTRS tags, are replaced by OTRS when generating the message. Find a list of available tags stems for this resource at the bottom of both add and edit screens.
 
 .. figure:: images/signature-variables.png
    :alt: Signature Variables
@@ -88,7 +88,6 @@ For example, the variable ``<OTRS_CURRENT_UserFirstname> <OTRS_CURRENT_UserLastn
    Best regards,
 
    <OTRS_CURRENT_UserFirstname> <OTRS_CURRENT_UserLastname>
-
 
 This tag expands, for example to:
 
