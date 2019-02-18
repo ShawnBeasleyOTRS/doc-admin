@@ -1,7 +1,7 @@
 Users, Groups & Roles
 =====================
 
-Simple and complex organizations need a way to flexibily control access to their service desk. Access, resources, and permissions must be orchestrated so that, the users and customers have access to the resources they need and their data is protected as needed by the system.
+Simple and complex organizations need a flexible way to control access to their service desk. Access, resources, and permissions must be orchestrated so that, the users and customers have access to the resources they need and their data is protected as needed by the system.
 
 OTRS provides powerful tools for this purpose and their use is described in the following chapter.
 
