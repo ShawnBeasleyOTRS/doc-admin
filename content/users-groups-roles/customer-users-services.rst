@@ -31,7 +31,7 @@ To allocate some customer users to a service:
 
 .. figure:: images/customer-user-service-service.png
    :alt: Change Customer User Relations for Service
-
+specifiect 
    Change Customer User Relations for Service
 
 .. note::
@@ -47,3 +47,16 @@ Multiple customer users or services can be assigned in both screens at the same 
 .. note::
 
    By setting a checkbox in the header of a column will set all the checkboxes in the selected column.
+
+Manage Default Services
+-----------------------
+
+It is possbile to add default services, so that all customers may access them. This prevents having to add each service to each customer user.
+
+1. Click on *Edit default services*.
+2. Select the service or services which should be selectable by any customer.
+3. Click on the *Save* or *Save and finish* button.
+
+.. warning::
+
+   Mixing default services and customer specific services can be confusing. If a customer user has specific services assigned, then the defualt services will not apply.
